@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Home/Header/Header/Header'
+import HomePage from '../components/Home/HomePage/HomePage'
+
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
+        <HomePage />
       </main>
     </div>
   )
